@@ -1,23 +1,31 @@
 body { 
     margin:0;
     padding:0;
-    font-family:helvetica, sans-serif; 
+    font-family:MS Sans Serif, sans-serif; 
+	background: url(r.bmpq.png) no-repeat;
+	background-size:cover;
 }
 
 a { 
-    color:#00abff;
-    text-decoration:none; 
+    color:#0000ff;
+    text-decoration:none;
+	font-family:Monotype Corsiva, cursive; 
 }
 
 h1 { 
     font-weight:normal;
     border-bottom:1px solid #bbb;
     padding:0 0 10px 0;
+	font-family:Monotype Corsiva, cursive;
+	color:#0000ff;
 }
+
 
 h2 {
     font-weight:normal;
     margin:30px 0 0;
+	font-family:Monotype Corsiva, cursive;
+	color:#ffffff;
 }
 
 #content { 
@@ -28,17 +36,22 @@ h2 {
 
 #sidebar { 
     float:right;
-    width:30%;
+    width:420px;
     padding:10px;
-    background:#efefef; 
-    height:100%;
+    background:#91c2f5;
+	background: url(Безымянный1.png) no-repeat;
+	background-size:cover;
+    height:350px;
+	color:#ffffff
+	
 }
 
 p.date { 
-    color:#ccc;
+    color:#ffffff;
     font-family: georgia, serif;
     font-size: 12px;
-    font-style: italic; 
+    font-style: italic;
+	
 }
 
 /* pagination */
@@ -58,7 +71,7 @@ input, textarea {
     clear:both;
     float:left;
     margin:0 0 10px;
-    background:#ededed;
+    background:#efefef;
     border:0;
     padding:6px 10px;
     font-size:12px;
